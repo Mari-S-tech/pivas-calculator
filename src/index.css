@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: 'Space Grotesk', 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-beer-light: #FF9F1C;
+  --color-beer-amber: #ffaa1d;
+  --color-beer-copper: #d97706;
+  --color-beer-brown: #9c5a2b;
+  --color-beer-dark: #2d1d11;
+  
+  --color-craft-olive: #FF9F1C;
+  --color-craft-olive-dark: #FF9F1C;
+  --color-craft-dust: #94a3b8;
+  --color-craft-charcoal: #f8fafc;
+  --color-craft-cream: #0B0F19;
+  --color-craft-input: #121826;
+  --color-craft-border: #1E2638;
+}
+
+/* Premium Dark Card from the screenshot */
+.craft-card {
+  background: #121826;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  border: 1px solid #1E2638;
+}
+
+.olive-btn {
+  background-color: #FF9F1C;
+  color: #0B0F19;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.olive-btn:hover {
+  background-color: #ffaa1d;
+  box-shadow: 0 4px 20px rgba(255, 159, 28, 0.35);
+}
+
+.result-bg {
+  background: linear-gradient(135deg, #121826 0%, #0B0F19 100%);
+  border-color: #FF9F1C;
+}
+
+
