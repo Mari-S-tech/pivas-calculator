@@ -1,0 +1,8 @@
+{
+  "name": "Калькулятор кінцевої щільності",
+  "description": "Професійний калькулятор прогнозування кінцевої щільності (Estimated FG) крафтового пива з урахуванням температурних пауз затирання та спецсолодів.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
